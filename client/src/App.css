@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif !important;
+}
+
+.page-body {
+  margin-top: 3rem !important;
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "surveyjs-node-react-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "concurrently": "latest"
+  },
+  "scripts": {
+    "start-server": "cd server && npm start",
+    "start-client": "cd client && npm start",
+    "start-sql": "cd docker && docker compose up",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\" \"npm run start-sql\""
+  }
+}
